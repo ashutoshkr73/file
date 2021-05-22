@@ -22,7 +22,7 @@ body {
   width: 150px;
 }
 section.download {
-  background: #fff;
+  background: var(--dark-pink);
   width: 430px;
   max-width: 90%;
   border-radius: 25px;
@@ -42,7 +42,7 @@ section.download {
   font-size: 18px;
   padding: 8px 40px;
   margin-top: 15px;
-  background: var(--light-blue);
+  background: var(--light-pink);
   text-decoration: none;
   border: none;
   border-radius: 5px;
@@ -52,5 +52,5 @@ section.download {
 }
 
 .send-btn-container a:hover {
-  background: var(--dark-blue);
+  background: var(--dark-pink);
 }
